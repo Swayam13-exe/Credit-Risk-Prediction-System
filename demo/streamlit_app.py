@@ -141,6 +141,6 @@ if st.button("Predict default risk", type="primary", use_container_width=True):
 
 st.divider()
 st.caption(
-    "Portfolio project by Swayam · [GitHub repo](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System) "
+    "project by Swayam · [GitHub repo](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System) "
     "· Not financial advice, trained on a public academic dataset for demonstration purposes."
 )
