@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class ClientFeatures(BaseModel):
@@ -30,8 +30,8 @@ class ClientFeatures(BaseModel):
     PAY_AMT5: float
     PAY_AMT6: float
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "LIMIT_BAL": 200000, "SEX": 1, "EDUCATION": 2, "MARRIAGE": 1, "AGE": 35,
                 "PAY_0": 2, "PAY_2": 2, "PAY_3": 0, "PAY_4": 0, "PAY_5": 0, "PAY_6": 0,
@@ -41,6 +41,7 @@ class ClientFeatures(BaseModel):
                 "PAY_AMT4": 2000, "PAY_AMT5": 2000, "PAY_AMT6": 2000,
             }
         }
+    )
 
 
 class PredictionResponse(BaseModel):
