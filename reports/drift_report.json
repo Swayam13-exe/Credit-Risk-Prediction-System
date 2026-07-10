@@ -1,0 +1,182 @@
+{
+  "LIMIT_BAL": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "SEX": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "EDUCATION": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "MARRIAGE": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "AGE": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_0": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_2": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_3": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_4": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_5": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_6": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT1": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT2": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT3": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT4": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT5": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "BILL_AMT6": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT1": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT2": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT3": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT4": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT5": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "PAY_AMT6": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "max_delay": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "mean_delay": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "num_months_delayed": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "delay_trend": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_1": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_2": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_3": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_4": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_5": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "util_ratio_6": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "avg_utilization": {
+    "psi": 0.2626,
+    "status": "major_shift"
+  },
+  "max_utilization": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_1": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_2": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_3": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_4": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_5": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "pay_ratio_6": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "avg_pay_ratio": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "bill_trend": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "avg_bill_amt": {
+    "psi": 0.0,
+    "status": "stable"
+  },
+  "avg_pay_amt": {
+    "psi": 0.0,
+    "status": "stable"
+  }
+}

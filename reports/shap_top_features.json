@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "num__max_delay",
+    "mean_abs_shap": 0.45021283626556396
+  },
+  {
+    "feature": "num__PAY_0",
+    "mean_abs_shap": 0.2464846521615982
+  },
+  {
+    "feature": "num__num_months_delayed",
+    "mean_abs_shap": 0.12829123437404633
+  },
+  {
+    "feature": "num__util_ratio_2",
+    "mean_abs_shap": 0.12281840294599533
+  },
+  {
+    "feature": "num__bill_trend",
+    "mean_abs_shap": 0.1016843169927597
+  },
+  {
+    "feature": "num__PAY_AMT1",
+    "mean_abs_shap": 0.0990179255604744
+  },
+  {
+    "feature": "num__LIMIT_BAL",
+    "mean_abs_shap": 0.08909998834133148
+  },
+  {
+    "feature": "num__avg_pay_amt",
+    "mean_abs_shap": 0.08542666584253311
+  },
+  {
+    "feature": "num__PAY_AMT2",
+    "mean_abs_shap": 0.08496474474668503
+  },
+  {
+    "feature": "num__util_ratio_1",
+    "mean_abs_shap": 0.0719408243894577
+  },
+  {
+    "feature": "num__mean_delay",
+    "mean_abs_shap": 0.06354444473981857
+  },
+  {
+    "feature": "num__avg_bill_amt",
+    "mean_abs_shap": 0.06204918771982193
+  },
+  {
+    "feature": "num__PAY_AMT6",
+    "mean_abs_shap": 0.058943141251802444
+  },
+  {
+    "feature": "num__BILL_AMT1",
+    "mean_abs_shap": 0.05743052437901497
+  },
+  {
+    "feature": "num__PAY_AMT3",
+    "mean_abs_shap": 0.057424914091825485
+  }
+]
