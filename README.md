@@ -35,7 +35,7 @@ scoring model in a regulated setting.
 Try it yourself — fill in a client profile and get a live prediction with
 a SHAP explanation of why:
 
-**[swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app)** · **API docs (when running locally):** `http://localhost:8000/docs`
+**[swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app)**
 
 *(Hosted on Streamlit Community Cloud's free tier — the app may take a
 few seconds to wake up if it hasn't been visited recently.)*
