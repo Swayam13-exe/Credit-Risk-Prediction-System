@@ -1,19 +1,21 @@
 # Credit Default Risk Prediction
 
+![CI](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
-![Tests](https://img.shields.io/badge/tests-10%20passing-brightgreen.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)
+![Model](https://img.shields.io/badge/model-XGBoost-orange.svg)
 
-An end-to-end, production-shaped machine learning system for predicting
-consumer credit card default risk — covering data cleaning, feature
-engineering, model comparison, class-imbalance handling, explainability,
-a served API, containerization, and post-deployment drift monitoring.
+**Live demo:** [swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app) · **API docs (when running locally):** `http://localhost:8000/docs`
 
-This is built as a portfolio project, but treated like a real fintech risk
-system: every design decision below (imbalance handling, metric choice,
+An end-to-end machine learning system for predicting consumer credit card
+default risk — covering data cleaning, feature engineering, model
+comparison, class-imbalance handling, explainability, a served API,
+containerization, and post-deployment drift monitoring.
+
+Every design decision below (imbalance handling, metric choice,
 explainability, monitoring) mirrors what is actually required of a credit
-scoring model in a regulated setting.
+scoring model in a regulated fintech setting.
 
 ## Table of contents
 
