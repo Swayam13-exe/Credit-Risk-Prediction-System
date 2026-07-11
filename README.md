@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)
 ![Model](https://img.shields.io/badge/model-XGBoost-orange.svg)
-[![Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://swayam-credit-risk-prediction-system.streamlit.app)
+[![Demo](https://shields.io)](https://swayam-credit-risk-prediction-system.streamlit.app)
 
 An end-to-end machine learning system for predicting consumer credit card
 default risk — covering data cleaning, feature engineering, model
