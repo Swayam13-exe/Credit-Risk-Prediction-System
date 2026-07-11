@@ -5,8 +5,8 @@
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)
 ![Model](https://img.shields.io/badge/model-XGBoost-orange.svg)
-![[GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System)
-![[Live Demo](https://img.shields.io/badge/Live%20Demo-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://swayam-credit-risk-prediction-system.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://swayam-credit-risk-prediction-system.streamlit.app)
 
 An end-to-end machine learning system for predicting consumer credit card
 default risk — covering data cleaning, feature engineering, model
