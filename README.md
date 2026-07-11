@@ -5,8 +5,6 @@
 ![Tests](https://img.shields.io/badge/tests-10%20passing-brightgreen.svg)
 ![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)
 
-**Live demo:** [swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app) · **API docs (when running locally):** `http://localhost:8000/docs`
-
 An end-to-end, production-shaped machine learning system for predicting
 consumer credit card default risk — covering data cleaning, feature
 engineering, model comparison, class-imbalance handling, explainability,
@@ -37,7 +35,7 @@ scoring model in a regulated setting.
 Try it yourself — fill in a client profile and get a live prediction with
 a SHAP explanation of why:
 
-**[swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app)**
+**[swayam-credit-risk-prediction-system.streamlit.app](https://swayam-credit-risk-prediction-system.streamlit.app)** · **API docs (when running locally):** `http://localhost:8000/docs`
 
 *(Hosted on Streamlit Community Cloud's free tier — the app may take a
 few seconds to wake up if it hasn't been visited recently.)*
