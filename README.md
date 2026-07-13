@@ -8,6 +8,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://swayam-credit-risk-prediction-system.streamlit.app)
 
+**API docs (when running locally):** `http://localhost:8000/docs`
+
 An end-to-end machine learning system for predicting consumer credit card
 default risk — covering data cleaning, feature engineering, model
 comparison, class-imbalance handling, explainability, a served API,
@@ -88,6 +90,16 @@ clean-ish table that still requires real data-quality handling and
 feature engineering to do well — better suited to demonstrating engineering
 judgment than to hiding it behind a huge join pipeline.
 
+> **Note:** the raw CSV isn't committed to this repo (data belongs in
+> storage, not git history). Trained model artifacts under `models/` *are*
+> committed, so the API and demo work out of the box without needing the
+> raw data at all. To reproduce training from scratch:
+> ```bash
+> mkdir -p data/raw
+> curl -L -o data/raw/UCI_Credit_Card.csv \
+>   https://raw.githubusercontent.com/YuChenAmberLu/Data-Science--Credit-Card-Default/master/UCI_Credit_Card.csv
+> ```
+
 ### Data quality issues found and corrected (`src/features.py::clean`)
 - `EDUCATION` contains undocumented categories `0, 5, 6` outside the
   stated 1–4 range → folded into an "other/unknown" bucket.
@@ -134,7 +146,7 @@ one individual high-risk prediction.
 ## Architecture
 
 ```
-data/raw/UCI_Credit_Card.csv
+data/raw/UCI_Credit_Card.csv  (not committed — see Dataset section to fetch)
         │
         ▼
 src/features.py  (clean + engineer)
@@ -144,7 +156,7 @@ src/train.py  ── trains & compares LR / RF / XGBoost
         │         (5-fold CV, class-weighted / scale_pos_weight)
         │         picks best by PR-AUC, tunes decision threshold by F1
         ▼
-models/model.joblib, threshold.json, feature_columns.json
+models/model.joblib, threshold.json, feature_columns.json  (committed)
         │
         ▼
 app/main.py  (FastAPI)  ──►  POST /predict  ──►  probability + risk tier
@@ -160,7 +172,7 @@ monitoring/drift_check.py  ──►  PSI-based feature drift report
 
 ```
 credit-risk-project/
-├── data/raw/UCI_Credit_Card.csv     # source data
+├── data/raw/                        # gitignored — not committed, see Dataset section above
 ├── src/
 │   ├── features.py                  # cleaning + feature engineering
 │   ├── train.py                     # model comparison, training, eval
@@ -170,7 +182,7 @@ credit-risk-project/
 │   └── schemas.py                   # request/response models
 ├── demo/
 │   └── streamlit_app.py             # interactive demo (live link above)
-├── models/                          # trained pipeline + metadata
+├── models/                          # trained pipeline + metadata (committed)
 ├── monitoring/drift_check.py        # PSI drift monitoring
 ├── reports/                         # metrics.json, figures/
 ├── tests/                           # pytest suite (10 tests)
@@ -185,6 +197,11 @@ credit-risk-project/
 ```bash
 pip install -r requirements.txt
 
+# Fetch the raw data (not committed to the repo — see data/README.md)
+mkdir -p data/raw
+curl -L -o data/raw/UCI_Credit_Card.csv \
+  https://raw.githubusercontent.com/YuChenAmberLu/Data-Science--Credit-Card-Default/master/UCI_Credit_Card.csv
+
 # Train (re-runs cleaning, feature engineering, model comparison, saves artifacts)
 python src/train.py
 
@@ -194,7 +211,7 @@ python src/explain.py
 # Run tests
 pytest tests/ -v
 
-# Serve the API locally
+# Serve the API locally (works immediately — no data needed, uses committed models/)
 uvicorn app.main:app --reload
 
 # Or run the interactive Streamlit demo locally
@@ -264,10 +281,13 @@ shifted distribution.
 
 ## Author
 
-**Swayam** — Computer Engineering student, AI/ML Engineering focus
+**Swayam Goswami** — Computer Engineering student, ML Engineer.
 [GitHub](https://github.com/Swayam13-exe) · [LinkedIn](https://linkedin.com/in/your-linkedin-handle)
 
 ## License
+
+This project is licensed under the [MIT License](LICENSE) — free to use,
+modify, and learn from.
 
 This project is licensed under the [MIT License](LICENSE) — free to use,
 modify, and learn from.
