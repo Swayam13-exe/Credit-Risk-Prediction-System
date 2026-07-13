@@ -1,4 +1,4 @@
-# Credit Default Risk Prediction
+# 💳 Credit Default Risk Prediction
 
 ![CI](https://github.com/Swayam13-exe/Credit-Risk-Prediction-System/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -282,7 +282,7 @@ shifted distribution.
 ## Author
 
 **Swayam Goswami** — Computer Engineering student, ML Engineer.
-[GitHub](https://github.com/Swayam13-exe) · [LinkedIn](https://linkedin.com/in/your-linkedin-handle)
+[GitHub](https://github.com/Swayam13-exe) · [LinkedIn](https://www.linkedin.com/in/swayam-goswami-3b4106333)
 
 ## License
 
